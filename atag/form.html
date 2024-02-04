@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<!-- <style>
+    form {
+                width: 300px;
+                margin: 0 auto;
+            }
+
+            legend {
+                font-size: 18px;
+                font-weight: bold;
+                margin-bottom: 10px;
+            }
+
+            label {
+                display: block;
+                margin-bottom: 5px;
+            }
+
+            input[type="text"],
+            input[type="email"],
+            input[type="number"],
+            input[type="password"] {
+                width: 100%;
+                padding: 5px;
+                margin-bottom: 10px;
+            }
+
+            button[type="submit"] {
+                padding: 10px 20px;
+                background-color: #4CAF50;
+                color: white;
+                border: none;
+                cursor: pointer;
+            }
+
+            button[type="submit"]:hover {
+                background-color: #45a049;
+            }
+</style> -->
+<body>
+    <h2>Registor Form</h2>
+    
+    <form action="project3.html" target="_blank">
+        <fieldset>
+            <legend>Personal Information</legend>
+            <label for="name">Name :</label>
+            <input type="text" name="name" id="name" required placeholder="Enter your name"><br><br>
+            <label for="email">Email :</label>
+            <input type="email" name="email" id="email" required placeholder="Enter Email address"><br><br>
+            <label for="age">Age : </label>
+            <input type="number" name="age" id="age" required><br><br>
+            <label for="password">Password :</label>
+            <input type="password" name="password" id="password" required><br><br>
+            <button type="submit">Submit</button>
+
+            <fieldset>
+                <legend>Gender: </legend>
+                <input type="radio" id="male" name="gender" value="Male"><span>Male</span>
+                <input type="radio" id="female" name="gender" value="Female"><span>Female</span>
+            </fieldset>
+            
+        </fieldset>
+
+    </form>
+</body>
+</html>
